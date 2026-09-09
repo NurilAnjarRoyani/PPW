@@ -1,11 +1,8 @@
-# Welcome to your Jupyter Book
+# Welcome to my PPW Books
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+Pencarian dan Penambangan Web (PPW) adalah bidang ilmu yang berfokus pada cara menemukan, mengumpulkan, dan menggali informasi berharga dari lautan data di internet. Materi ini membahas bagaimana mesin pencari bekerja—mulai dari proses menelusuri halaman web (crawling), menyusun indeks dokumen, hingga mengurutkan hasil pencarian agar relevan dengan apa yang dicari pengguna. Selain itu, materi ini juga mengupas teknik penambangan data (web mining) untuk mengekstrak pola dari struktur situs web, teks ulasan, maupun artikel, kemudian mengubah data internet yang berantakan menjadi pengetahuan yang terstruktur dan bisa dianalisis. Semoga materi ini dapat bermanfaat bagi para pembaca.
 
-Check out the content pages bundled with this sample book to see more.
-
-```{tableofcontents}
-```
+NAMA : Nuril Anjar Royani
+NIM : 230411100134
+PRODI : TEKNIK INFORMATIKA
+EMAIL : nurilanjarroyani23134@gmail.com
