@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>&lt;no title&gt; &#8212; Pencarian dan Penambangan Web</title>
+    <title>Tugas 1 &#8212; Pencarian dan Penambangan Web</title>
   
   
   
@@ -65,6 +65,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'PPWT1';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Kata Unik" href="PPWT2.html" />
     <link rel="prev" title="Welcome to my PPW Books" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -172,7 +173,12 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Tugas 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PPWT2.html">Kata Unik</a></li>
+
+</ul>
+
     </div>
 </nav></div>
     </div>
@@ -343,9 +349,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -356,19 +360,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1><no title></h1>
+    <h1>Tugas 1</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-            </nav>
         </div>
     </div>
 </div>
@@ -378,13 +374,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># TUGAS1</span>
-</pre></div>
-</div>
-</div>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="tugas-1">
+<h1>Tugas 1<a class="headerlink" href="#tugas-1" title="Permalink to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Jika belum install library, jalankan sekali saja</span>
@@ -401,36 +392,24 @@ Requirement already satisfied: openpyxl in /usr/local/python/3.14.2/lib/python3.
 Requirement already satisfied: tqdm in /usr/local/python/3.14.2/lib/python3.14/site-packages (4.70.0)
 Requirement already satisfied: charset_normalizer&lt;4,&gt;=2 in /home/codespace/.local/lib/python3.14/site-packages (from requests) (3.5.1)
 Requirement already satisfied: idna&lt;4,&gt;=2.5 in /home/codespace/.local/lib/python3.14/site-packages (from requests) (3.19)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: urllib3&lt;3,&gt;=1.26 in /home/codespace/.local/lib/python3.14/site-packages (from requests) (2.7.0)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.26 in /home/codespace/.local/lib/python3.14/site-packages (from requests) (2.7.0)
 Requirement already satisfied: certifi&gt;=2023.5.7 in /home/codespace/.local/lib/python3.14/site-packages (from requests) (2026.7.22)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: soupsieve&gt;=1.6.1 in /home/codespace/.local/lib/python3.14/site-packages (from beautifulsoup4) (2.9.2)
+Requirement already satisfied: soupsieve&gt;=1.6.1 in /home/codespace/.local/lib/python3.14/site-packages (from beautifulsoup4) (2.9.2)
 Requirement already satisfied: typing-extensions&gt;=4.0.0 in /home/codespace/.local/lib/python3.14/site-packages (from beautifulsoup4) (4.16.0)
 Requirement already satisfied: courlan&gt;=1.4.0 in /usr/local/python/3.14.2/lib/python3.14/site-packages (from trafilatura) (1.4.0)
 Requirement already satisfied: htmldate&gt;=1.10.0 in /usr/local/python/3.14.2/lib/python3.14/site-packages (from trafilatura) (1.10.0)
 Requirement already satisfied: justext&gt;=3.0.2 in /usr/local/python/3.14.2/lib/python3.14/site-packages (from trafilatura) (3.0.2)
 Requirement already satisfied: lxml&gt;=6.1.1 in /usr/local/python/3.14.2/lib/python3.14/site-packages (from trafilatura) (6.1.3)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: numpy&gt;=2.3.3 in /usr/local/python/3.14.2/lib/python3.14/site-packages (from pandas) (2.5.3)
+Requirement already satisfied: numpy&gt;=2.3.3 in /usr/local/python/3.14.2/lib/python3.14/site-packages (from pandas) (2.5.3)
 Requirement already satisfied: python-dateutil&gt;=2.8.2 in /home/codespace/.local/lib/python3.14/site-packages (from pandas) (2.9.0.post0)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: et-xmlfile in /usr/local/python/3.14.2/lib/python3.14/site-packages (from openpyxl) (2.0.0)
+Requirement already satisfied: et-xmlfile in /usr/local/python/3.14.2/lib/python3.14/site-packages (from openpyxl) (2.0.0)
 Requirement already satisfied: babel&gt;=2.16.0 in /home/codespace/.local/lib/python3.14/site-packages (from courlan&gt;=1.4.0-&gt;trafilatura) (2.18.0)
 Requirement already satisfied: tld&gt;=0.13 in /usr/local/python/3.14.2/lib/python3.14/site-packages (from courlan&gt;=1.4.0-&gt;trafilatura) (0.13.2)
 Requirement already satisfied: dateparser&gt;=1.1.2 in /usr/local/python/3.14.2/lib/python3.14/site-packages (from htmldate&gt;=1.10.0-&gt;trafilatura) (1.4.3)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: pytz&gt;=2024.2 in /usr/local/python/3.14.2/lib/python3.14/site-packages (from dateparser&gt;=1.1.2-&gt;htmldate&gt;=1.10.0-&gt;trafilatura) (2026.3.post1)
+Requirement already satisfied: pytz&gt;=2024.2 in /usr/local/python/3.14.2/lib/python3.14/site-packages (from dateparser&gt;=1.1.2-&gt;htmldate&gt;=1.10.0-&gt;trafilatura) (2026.3.post1)
 Requirement already satisfied: regex&gt;=2024.9.11 in /usr/local/python/3.14.2/lib/python3.14/site-packages (from dateparser&gt;=1.1.2-&gt;htmldate&gt;=1.10.0-&gt;trafilatura) (2026.9.3)
 Requirement already satisfied: tzlocal&gt;=0.2 in /usr/local/python/3.14.2/lib/python3.14/site-packages (from dateparser&gt;=1.1.2-&gt;htmldate&gt;=1.10.0-&gt;trafilatura) (5.4.4)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: lxml_html_clean in /usr/local/python/3.14.2/lib/python3.14/site-packages (from lxml[html_clean]&gt;=4.4.2-&gt;justext&gt;=3.0.2-&gt;trafilatura) (0.4.5)
+Requirement already satisfied: lxml_html_clean in /usr/local/python/3.14.2/lib/python3.14/site-packages (from lxml[html_clean]&gt;=4.4.2-&gt;justext&gt;=3.0.2-&gt;trafilatura) (0.4.5)
 Requirement already satisfied: six&gt;=1.5 in /home/codespace/.local/lib/python3.14/site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas) (1.17.0)
 </pre></div>
 </div>
@@ -604,37 +583,35 @@ Requirement already satisfied: six&gt;=1.5 in /home/codespace/.local/lib/python3
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 1
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 20
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 19
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 2
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 40
+Jumlah link: 39
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 3
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 60
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 57
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 4
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 80
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 77
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 5
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 99
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 97
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 6
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 118
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 117
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 7
@@ -671,50 +648,56 @@ Total kandidat Sport: 157
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 1
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 20
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 19
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 2
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 39
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 37
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 3
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 59
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 55
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 4
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 79
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 75
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 5
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 97
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 93
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 6
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 117
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 108
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 7
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 136
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 126
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 8
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 156
-Total kandidat Finance: 156
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 146
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Membaca halaman 9
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah link: 166
+Total kandidat Finance: 166
 </pre></div>
 </div>
 </div>
@@ -874,55 +857,55 @@ Total kandidat Finance: 156
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   0%|                                                                      | 0/157 [00:00&lt;?, ?it/s]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   1%|▍                                                             | 1/157 [00:01&lt;03:58,  1.53s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   1%|▍                                                             | 1/157 [00:01&lt;04:27,  1.71s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   1%|▊                                                             | 2/157 [00:03&lt;03:55,  1.52s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   1%|▊                                                             | 2/157 [00:03&lt;04:46,  1.85s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   2%|█▏                                                            | 3/157 [00:04&lt;03:52,  1.51s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   2%|█▏                                                            | 3/157 [00:05&lt;04:30,  1.76s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   3%|█▌                                                            | 4/157 [00:06&lt;04:19,  1.69s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   3%|█▌                                                            | 4/157 [00:07&lt;04:36,  1.81s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   3%|█▉                                                            | 5/157 [00:08&lt;04:27,  1.76s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   3%|█▉                                                            | 5/157 [00:08&lt;04:15,  1.68s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   4%|██▎                                                           | 6/157 [00:09&lt;04:09,  1.65s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   4%|██▎                                                           | 6/157 [00:10&lt;04:35,  1.83s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   4%|██▊                                                           | 7/157 [00:11&lt;04:22,  1.75s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   4%|██▊                                                           | 7/157 [00:12&lt;04:29,  1.80s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   5%|███▏                                                          | 8/157 [00:13&lt;04:24,  1.77s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   5%|███▏                                                          | 8/157 [00:14&lt;04:57,  2.00s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   6%|███▌                                                          | 9/157 [00:15&lt;04:09,  1.69s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   6%|███▌                                                          | 9/157 [00:16&lt;04:36,  1.87s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   6%|███▉                                                         | 10/157 [00:17&lt;04:27,  1.82s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   6%|███▉                                                         | 10/157 [00:18&lt;04:18,  1.76s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   7%|████▎                                                        | 11/157 [00:18&lt;04:03,  1.67s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   7%|████▎                                                        | 11/157 [00:19&lt;04:12,  1.73s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   8%|████▋                                                        | 12/157 [00:20&lt;04:21,  1.80s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   8%|████▋                                                        | 12/157 [00:21&lt;03:55,  1.62s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   8%|█████                                                        | 13/157 [00:22&lt;04:01,  1.68s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   8%|█████                                                        | 13/157 [00:23&lt;04:18,  1.80s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   9%|█████▍                                                       | 14/157 [00:23&lt;04:07,  1.73s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:   9%|█████▍                                                       | 14/157 [00:25&lt;04:30,  1.89s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:  10%|█████▊                                                       | 15/157 [00:25&lt;04:07,  1.75s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:  10%|█████▊                                                       | 15/157 [00:27&lt;04:32,  1.92s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:  10%|██████▏                                                      | 16/157 [00:27&lt;04:22,  1.86s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:  10%|██████▏                                                      | 16/157 [00:29&lt;04:40,  1.99s/it]
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:  10%|██████▏                                                      | 16/157 [00:29&lt;04:23,  1.87s/it]
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scraping sport:  10%|██████▏                                                      | 16/157 [00:29&lt;04:24,  1.87s/it]
 </pre></div>
 </div>
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>
@@ -930,152 +913,21 @@ Total kandidat Finance: 156
 </div>
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
 <span class="ne">KeyboardInterrupt</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">11</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">10</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
 <span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">data_sport</span> <span class="o">=</span> <span class="n">scraping_kategori</span><span class="p">(</span>
 <span class="g g-Whitespace">      </span><span class="mi">2</span>     <span class="n">link_sport</span><span class="p">,</span>
 <span class="g g-Whitespace">      </span><span class="mi">3</span>     <span class="s2">"sport"</span><span class="p">,</span>
 <span class="g g-Whitespace">      </span><span class="mi">4</span>     <span class="n">target</span><span class="o">=</span><span class="mi">100</span>
 
-<span class="nn">Cell In[10], line 20,</span> in <span class="ni">scraping_kategori</span><span class="nt">(links, label, target)</span>
-<span class="g g-Whitespace">     </span><span class="mi">16</span>         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">hasil</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">target</span><span class="p">:</span>
-<span class="g g-Whitespace">     </span><span class="mi">17</span>             <span class="k">break</span>
-<span class="g g-Whitespace">     </span><span class="mi">18</span> 
-<span class="g g-Whitespace">     </span><span class="mi">19</span> 
-<span class="ne">---&gt; </span><span class="mi">20</span>         <span class="n">isi</span> <span class="o">=</span> <span class="n">ambil_isi_berita</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">21</span> 
-<span class="g g-Whitespace">     </span><span class="mi">22</span> 
-<span class="g g-Whitespace">     </span><span class="mi">23</span>         <span class="k">if</span> <span class="n">isi</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-
-<span class="nn">Cell In[9], line 33,</span> in <span class="ni">ambil_isi_berita</span><span class="nt">(url)</span>
-<span class="g g-Whitespace">     </span><span class="mi">29</span> 
-<span class="g g-Whitespace">     </span><span class="mi">30</span>             <span class="k">return</span> <span class="n">isi</span>
+<span class="nn">Cell In[9], line 34,</span> in <span class="ni">scraping_kategori</span><span class="nt">(links, label, target)</span>
+<span class="g g-Whitespace">     </span><span class="mi">30</span>             <span class="p">)</span>
 <span class="g g-Whitespace">     </span><span class="mi">31</span> 
 <span class="g g-Whitespace">     </span><span class="mi">32</span> 
-<span class="ne">---&gt; </span><span class="mi">33</span>     <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-<span class="g g-Whitespace">     </span><span class="mi">34</span> 
-<span class="g g-Whitespace">     </span><span class="mi">35</span>         <span class="nb">print</span><span class="p">(</span>
-<span class="g g-Whitespace">     </span><span class="mi">36</span>             <span class="s2">"Gagal:"</span><span class="p">,</span>
-
-<span class="nn">File ~/.local/lib/python3.14/site-packages/requests/sessions.py:671,</span> in <span class="ni">Session.get</span><span class="nt">(self, url, params, **kwargs)</span>
-<span class="g g-Whitespace">    </span><span class="mi">661</span><span class="w"> </span><span class="sa">r</span><span class="sd">"""Sends a GET request. Returns :class:`Response` object.</span>
-<span class="g g-Whitespace">    </span><span class="mi">662</span><span class="sd"> </span>
-<span class="g g-Whitespace">    </span><span class="mi">663</span><span class="sd"> :param url: URL for the new :class:`Request` object.</span>
-<span class="sd">   (...)    667 :rtype: requests.Response</span>
-<span class="g g-Whitespace">    </span><span class="mi">668</span><span class="sd"> """</span>
-<span class="g g-Whitespace">    </span><span class="mi">670</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s2">"allow_redirects"</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
-<span class="ne">--&gt; </span><span class="mi">671</span> <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">request</span><span class="p">(</span><span class="s2">"GET"</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-
-<span class="nn">File ~/.local/lib/python3.14/site-packages/requests/sessions.py:651,</span> in <span class="ni">Session.request</span><span class="nt">(self, method, url, params, data, headers, cookies, files, auth, timeout, allow_redirects, proxies, hooks, stream, verify, cert, json)</span>
-<span class="g g-Whitespace">    </span><span class="mi">646</span> <span class="n">send_kwargs</span> <span class="o">=</span> <span class="p">{</span>
-<span class="g g-Whitespace">    </span><span class="mi">647</span>     <span class="s2">"timeout"</span><span class="p">:</span> <span class="n">timeout</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">648</span>     <span class="s2">"allow_redirects"</span><span class="p">:</span> <span class="n">allow_redirects</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">649</span> <span class="p">}</span>
-<span class="g g-Whitespace">    </span><span class="mi">650</span> <span class="n">send_kwargs</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">settings</span><span class="p">)</span>
-<span class="ne">--&gt; </span><span class="mi">651</span> <span class="n">resp</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">prep</span><span class="p">,</span> <span class="o">**</span><span class="n">send_kwargs</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">653</span> <span class="k">return</span> <span class="n">resp</span>
-
-<span class="nn">File ~/.local/lib/python3.14/site-packages/requests/sessions.py:784,</span> in <span class="ni">Session.send</span><span class="nt">(self, request, **kwargs)</span>
-<span class="g g-Whitespace">    </span><span class="mi">781</span> <span class="n">start</span> <span class="o">=</span> <span class="n">preferred_clock</span><span class="p">()</span>
-<span class="g g-Whitespace">    </span><span class="mi">783</span> <span class="c1"># Send the request</span>
-<span class="ne">--&gt; </span><span class="mi">784</span> <span class="n">r</span> <span class="o">=</span> <span class="n">adapter</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">786</span> <span class="c1"># Total elapsed time of the request (approximately)</span>
-<span class="g g-Whitespace">    </span><span class="mi">787</span> <span class="n">elapsed</span> <span class="o">=</span> <span class="n">preferred_clock</span><span class="p">()</span> <span class="o">-</span> <span class="n">start</span>
-
-<span class="nn">File ~/.local/lib/python3.14/site-packages/requests/adapters.py:696,</span> in <span class="ni">HTTPAdapter.send</span><span class="nt">(self, request, stream, timeout, verify, cert, proxies)</span>
-<span class="g g-Whitespace">    </span><span class="mi">693</span>     <span class="n">resolved_timeout</span> <span class="o">=</span> <span class="n">TimeoutSauce</span><span class="p">(</span><span class="n">connect</span><span class="o">=</span><span class="n">timeout</span><span class="p">,</span> <span class="n">read</span><span class="o">=</span><span class="n">timeout</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">695</span> <span class="k">try</span><span class="p">:</span>
-<span class="ne">--&gt; </span><span class="mi">696</span>     <span class="n">resp</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span>
-<span class="g g-Whitespace">    </span><span class="mi">697</span>         <span class="n">method</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">method</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">698</span>         <span class="n">url</span><span class="o">=</span><span class="n">url</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">699</span>         <span class="n">body</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">body</span><span class="p">,</span>  <span class="c1"># type: ignore[arg-type]  # urllib3 stubs don't accept Iterable[bytes | str]</span>
-<span class="g g-Whitespace">    </span><span class="mi">700</span>         <span class="n">headers</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">headers</span><span class="p">,</span>  <span class="c1"># type: ignore[arg-type]  # urllib3#3072</span>
-<span class="g g-Whitespace">    </span><span class="mi">701</span>         <span class="n">redirect</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">702</span>         <span class="n">assert_same_host</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">703</span>         <span class="n">preload_content</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">704</span>         <span class="n">decode_content</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">705</span>         <span class="n">retries</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">max_retries</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">706</span>         <span class="n">timeout</span><span class="o">=</span><span class="n">resolved_timeout</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">707</span>         <span class="n">chunked</span><span class="o">=</span><span class="n">chunked</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">708</span>     <span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">710</span> <span class="k">except</span> <span class="p">(</span><span class="n">ProtocolError</span><span class="p">,</span> <span class="ne">OSError</span><span class="p">)</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">711</span>     <span class="k">raise</span> <span class="ne">ConnectionError</span><span class="p">(</span><span class="n">err</span><span class="p">,</span> <span class="n">request</span><span class="o">=</span><span class="n">request</span><span class="p">)</span>
-
-<span class="nn">File ~/.local/lib/python3.14/site-packages/urllib3/connectionpool.py:788,</span> in <span class="ni">HTTPConnectionPool.urlopen</span><span class="nt">(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, preload_content, decode_content, **response_kw)</span>
-<span class="g g-Whitespace">    </span><span class="mi">785</span> <span class="n">response_conn</span> <span class="o">=</span> <span class="n">conn</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">release_conn</span> <span class="k">else</span> <span class="kc">None</span>
-<span class="g g-Whitespace">    </span><span class="mi">787</span> <span class="c1"># Make the request on the HTTPConnection object</span>
-<span class="ne">--&gt; </span><span class="mi">788</span> <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span>
-<span class="g g-Whitespace">    </span><span class="mi">789</span>     <span class="n">conn</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">790</span>     <span class="n">method</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">791</span>     <span class="n">url</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">792</span>     <span class="n">timeout</span><span class="o">=</span><span class="n">timeout_obj</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">793</span>     <span class="n">body</span><span class="o">=</span><span class="n">body</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">794</span>     <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">795</span>     <span class="n">chunked</span><span class="o">=</span><span class="n">chunked</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">796</span>     <span class="n">retries</span><span class="o">=</span><span class="n">retries</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">797</span>     <span class="n">response_conn</span><span class="o">=</span><span class="n">response_conn</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">798</span>     <span class="n">preload_content</span><span class="o">=</span><span class="n">preload_content</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">799</span>     <span class="n">decode_content</span><span class="o">=</span><span class="n">decode_content</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">800</span>     <span class="o">**</span><span class="n">response_kw</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">801</span> <span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">803</span> <span class="c1"># Everything went great!</span>
-<span class="g g-Whitespace">    </span><span class="mi">804</span> <span class="n">clean_exit</span> <span class="o">=</span> <span class="kc">True</span>
-
-<span class="nn">File ~/.local/lib/python3.14/site-packages/urllib3/connectionpool.py:534,</span> in <span class="ni">HTTPConnectionPool._make_request</span><span class="nt">(self, conn, method, url, body, headers, retries, timeout, chunked, response_conn, preload_content, decode_content, enforce_content_length)</span>
-<span class="g g-Whitespace">    </span><span class="mi">532</span> <span class="c1"># Receive the response from the server</span>
-<span class="g g-Whitespace">    </span><span class="mi">533</span> <span class="k">try</span><span class="p">:</span>
-<span class="ne">--&gt; </span><span class="mi">534</span>     <span class="n">response</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">getresponse</span><span class="p">()</span>
-<span class="g g-Whitespace">    </span><span class="mi">535</span> <span class="k">except</span> <span class="p">(</span><span class="n">BaseSSLError</span><span class="p">,</span> <span class="ne">OSError</span><span class="p">)</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">536</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_raise_timeout</span><span class="p">(</span><span class="n">err</span><span class="o">=</span><span class="n">e</span><span class="p">,</span> <span class="n">url</span><span class="o">=</span><span class="n">url</span><span class="p">,</span> <span class="n">timeout_value</span><span class="o">=</span><span class="n">read_timeout</span><span class="p">)</span>
-
-<span class="nn">File ~/.local/lib/python3.14/site-packages/urllib3/connection.py:571,</span> in <span class="ni">HTTPConnection.getresponse</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">    </span><span class="mi">568</span> <span class="n">_shutdown</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">sock</span><span class="p">,</span> <span class="s2">"shutdown"</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">570</span> <span class="c1"># Get the response from http.client.HTTPConnection</span>
-<span class="ne">--&gt; </span><span class="mi">571</span> <span class="n">httplib_response</span> <span class="o">=</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">getresponse</span><span class="p">()</span>
-<span class="g g-Whitespace">    </span><span class="mi">573</span> <span class="k">try</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">574</span>     <span class="n">assert_header_parsing</span><span class="p">(</span><span class="n">httplib_response</span><span class="o">.</span><span class="n">msg</span><span class="p">)</span>
-
-<span class="nn">File /usr/local/python/3.14.2/lib/python3.14/http/client.py:1450,</span> in <span class="ni">HTTPConnection.getresponse</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1448</span> <span class="k">try</span><span class="p">:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1449</span>     <span class="k">try</span><span class="p">:</span>
-<span class="ne">-&gt; </span><span class="mi">1450</span>         <span class="n">response</span><span class="o">.</span><span class="n">begin</span><span class="p">()</span>
-<span class="g g-Whitespace">   </span><span class="mi">1451</span>     <span class="k">except</span> <span class="ne">ConnectionError</span><span class="p">:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1452</span>         <span class="bp">self</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-
-<span class="nn">File /usr/local/python/3.14.2/lib/python3.14/http/client.py:336,</span> in <span class="ni">HTTPResponse.begin</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">    </span><span class="mi">334</span> <span class="c1"># read until we get a non-100 response</span>
-<span class="g g-Whitespace">    </span><span class="mi">335</span> <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-<span class="ne">--&gt; </span><span class="mi">336</span>     <span class="n">version</span><span class="p">,</span> <span class="n">status</span><span class="p">,</span> <span class="n">reason</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_read_status</span><span class="p">()</span>
-<span class="g g-Whitespace">    </span><span class="mi">337</span>     <span class="k">if</span> <span class="n">status</span> <span class="o">!=</span> <span class="n">CONTINUE</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">338</span>         <span class="k">break</span>
-
-<span class="nn">File /usr/local/python/3.14.2/lib/python3.14/http/client.py:297,</span> in <span class="ni">HTTPResponse._read_status</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">    </span><span class="mi">296</span> <span class="k">def</span><span class="w"> </span><span class="nf">_read_status</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-<span class="ne">--&gt; </span><span class="mi">297</span>     <span class="n">line</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">fp</span><span class="o">.</span><span class="n">readline</span><span class="p">(</span><span class="n">_MAXLINE</span> <span class="o">+</span> <span class="mi">1</span><span class="p">),</span> <span class="s2">"iso-8859-1"</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">298</span>     <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">line</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">_MAXLINE</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">299</span>         <span class="k">raise</span> <span class="n">LineTooLong</span><span class="p">(</span><span class="s2">"status line"</span><span class="p">)</span>
-
-<span class="nn">File /usr/local/python/3.14.2/lib/python3.14/socket.py:725,</span> in <span class="ni">SocketIO.readinto</span><span class="nt">(self, b)</span>
-<span class="g g-Whitespace">    </span><span class="mi">723</span>     <span class="k">raise</span> <span class="ne">OSError</span><span class="p">(</span><span class="s2">"cannot read from timed out object"</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">724</span> <span class="k">try</span><span class="p">:</span>
-<span class="ne">--&gt; </span><span class="mi">725</span>     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sock</span><span class="o">.</span><span class="n">recv_into</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">726</span> <span class="k">except</span> <span class="n">timeout</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">727</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_timeout_occurred</span> <span class="o">=</span> <span class="kc">True</span>
-
-<span class="nn">File /usr/local/python/3.14.2/lib/python3.14/ssl.py:1304,</span> in <span class="ni">SSLSocket.recv_into</span><span class="nt">(self, buffer, nbytes, flags)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1300</span>     <span class="k">if</span> <span class="n">flags</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1301</span>         <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
-<span class="g g-Whitespace">   </span><span class="mi">1302</span>           <span class="s2">"non-zero flags not allowed in calls to recv_into() on </span><span class="si">%s</span><span class="s2">"</span> <span class="o">%</span>
-<span class="g g-Whitespace">   </span><span class="mi">1303</span>           <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">)</span>
-<span class="ne">-&gt; </span><span class="mi">1304</span>     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">nbytes</span><span class="p">,</span> <span class="n">buffer</span><span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1305</span> <span class="k">else</span><span class="p">:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1306</span>     <span class="k">return</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">recv_into</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span> <span class="n">nbytes</span><span class="p">,</span> <span class="n">flags</span><span class="p">)</span>
-
-<span class="nn">File /usr/local/python/3.14.2/lib/python3.14/ssl.py:1138,</span> in <span class="ni">SSLSocket.read</span><span class="nt">(self, len, buffer)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1136</span> <span class="k">try</span><span class="p">:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1137</span>     <span class="k">if</span> <span class="n">buffer</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-<span class="ne">-&gt; </span><span class="mi">1138</span>         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sslobj</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="nb">len</span><span class="p">,</span> <span class="n">buffer</span><span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1139</span>     <span class="k">else</span><span class="p">:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1140</span>         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sslobj</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="nb">len</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">33</span>         <span class="c1"># delay supaya tidak terlalu cepat</span>
+<span class="ne">---&gt; </span><span class="mi">34</span>         <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span>
+<span class="g g-Whitespace">     </span><span class="mi">35</span>             <span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">36</span>         <span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">37</span> 
 
 <span class="ne">KeyboardInterrupt</span>: 
 </pre></div>
@@ -1323,6 +1175,7 @@ Name: count, dtype: int64
 </div>
 </div>
 </div>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -1363,27 +1216,21 @@ Name: count, dtype: int64
         <p class="prev-next-title">Welcome to my PPW Books</p>
       </div>
     </a>
+    <a class="right-next"
+       href="PPWT2.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Kata Unik</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-  </nav></div>
-
-</div></div>
               
             
           </div>
